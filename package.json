@@ -1,0 +1,19 @@
+{
+  "name": "Cactus",
+  "description": "Base Theme",
+  "version": "1.0.0",
+  "license": "CactusThemes License",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-jshint": "*",
+    "gulp-less": "*",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "jshint": "^2.9.3"
+  }
+}
