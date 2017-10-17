@@ -1,19 +1,22 @@
 {
-  "name": "Cactus",
-  "description": "Base Theme",
+  "name": "OM Starter HTML Template",
+  "description": "OM Starter HTML Template",
   "main": "",
   "authors": [
-    "CactusThemes"
+    "Tu Dinh Xuan"
   ],
-  "license": "CactusThemes License",
+  "license": "GNU General Public License v3.0",
   "keywords": [
-    "Themes",
-    "Responsive"
+    "HTML",
+    "Responsive",
+    "Template",
+    "Starter",
+    "Free"
   ],
   "moduleType": [
     "node"
   ],
-  "homepage": "http://www.cactusthemes.com",
+  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",
