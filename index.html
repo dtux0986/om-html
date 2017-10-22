@@ -16,7 +16,7 @@
 	<![endif]-->
 
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>OM Starter HTML Template - Build Everything</title>
 
@@ -38,11 +38,14 @@
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
 	<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96"/>
 
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
 	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" type='text/css' media='all'/>
+	<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap-reboot.min.css" type='text/css' media='all'/>
 	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css" type='text/css' media='all'/>
 	<link rel="stylesheet" href="vendors/slick-carousel/slick.css" type='text/css' media='all'/>
 	<link rel="stylesheet" href="vendors/slick-carousel/slick-theme.css" type='text/css' media='all'/>
-	<link rel="stylesheet" href="style.css" type='text/css' media='all'/>
+	<link rel="stylesheet" href="styles.css" type='text/css' media='all'/>
 
 </head>
 
@@ -93,29 +96,128 @@
 
 		<section id="content" class="site-content">
 
-			<section>
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="o-parallax">
-								<h1>Parallax</h1>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<div class="o-wrapper">
+				<div class="container o-inactive">
+					<div class="row no-gutters">
+						<div class="col">
 
-			<section>
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="o-compare">
-								<h1>Compare</h1>
-							</div>
+							<section id="o-carousel" class="o-carousel">
+								<div class="container">
+									<div class="o-carousel__block">
+										<div class="row">
+											<div class="col">
+												<div class="o-carousel__block--wrapper">
+													<div class="o-carousel__title">
+														<h1>OM Starter HTML Template</h1>
+													</div>
+													<div class="o-carousel__sub">
+														<p>OM Starter HTML Template helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section id="o-media-1" class="o-media">
+								<div class="container">
+									<div class="o-media__block">
+										<div class="row o-row-padded o-row-centered">
+											<div class="col-12 col-md-6">
+												<div class="o-media__block--left">
+													<div class="o-media__title">
+														<h3>On The Left</h3>
+													</div>
+													<div class="o-media__summary">
+														<p>Nam iaculis, enim ac egestas tincidunt, massa tortor fermentum arcu, non volutpat ipsum lorem ac turpis. Pellentesque dapibus a sapien et convallis. Donec fermentum, enim at sollicitudin cursus, risus sapien posuere lectus, in faucibus nisl nibh ac ligula. </p>
+													</div>
+												</div>
+											</div>
+											<div class="col-12 col-md-6">
+												<div class="o-media__block--right">
+													<div class="o-media__image">
+														<img src="images/sphinx.jpg" sizes="50vw" srcset="images/sphinx.jpg 200vw, images/sphinx@2x.jpg 400vw" alt="Sphinx"/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section id="o-parallax" class="o-parallax">
+								<div class="container">
+									<div class="o-parallax__block">
+									<div class="row o-row-padded o-row-centered">
+										<div class="col">
+											<div class="p-parrallax__block--wrapper">
+												<div class="o-parallax__title">
+													<h1>Parallax</h1>
+												</div>
+												<div class="o-parallax__summary">
+													<p>Nam iaculis, enim ac egestas tincidunt, massa tortor fermentum arcu, non volutpat ipsum lorem ac turpis. Pellentesque dapibus a sapien et convallis. Donec fermentum, enim at sollicitudin cursus, risus sapien posuere lectus, in faucibus nisl nibh ac ligula.</p>
+												</div>
+												<div class="o-parallax__cta">
+													<button type="button" class="btn btn-primary">Learn More</button>
+												</div>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section id="parallaxDownloadParent" class="parallaxDownloadParent">
+								<div id="c-download" class="c-download" style="background-image: url(images/slider/parallax-bg.jpg)">
+									<div class="mask"></div>
+									<div class="c-download__inner">
+										<div class="container c-container">
+											<div class="row c-row">
+												<div class="block">
+													<div class="col-md-2"></div>
+													<div class="col-xs-12 col-md-8 c-column">
+														<div class="c-title">
+															<div class="item-title">
+																<h3 class="heading">WORKING WITH US</h3>
+															</div>
+														</div>
+														<div class="item-content">
+															<div class="item-summary">
+																<h2 class="heading">CHECK OUT OUR SERVICES TO SEE WHAT WE CAN DO FOR YOU</h2>
+															</div>
+															<div class="item-caption">
+																<p>Download our brochures now!</p>
+															</div>
+															<div class="call-to-action">
+																<a class="btn btn-primary btn-custom ruby" href="#">Download</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-2"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section>
+								<div class="container">
+									<div class="row">
+										<div class="col-12">
+											<div class="o-compare">
+												<h1>Compare</h1>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
 
 		</section>
 		<!--!site-content-->

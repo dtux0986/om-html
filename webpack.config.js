@@ -1,16 +1,7 @@
 module.exports = {
-	entry: './js/scripts.js',
+	entry: './js/index.js',
 	output: {
-		path: './js/build',
-		filename: 'scripts.js'
-	}
-};
-
-module.exports = {
-	entry: './js/scripts.js',
-	output: {
-		path: './js/build',
-		filename: 'scripts.js'
+		filename: 'index2.js'
 	},
 	module: {
 		loaders: [{

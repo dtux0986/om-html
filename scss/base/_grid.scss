@@ -1,0 +1,29 @@
+/**
+ * GRID
+ * -------------------------------------------------- */
+
+.container,
+.container-fluid {
+  &.o-inactive {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.o-row-padded {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.o-row-centered {
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.o-col-left {
+
+}
+
+.o-col-right {
+
+}

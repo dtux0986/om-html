@@ -1,0 +1,22 @@
+.o-carousel {
+  background-color: #f5f5f5;
+
+  &__block {
+    position: relative;
+  }
+
+  &__block--wrapper {
+    height: 75vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  &__title {
+
+  }
+
+  &__sub {
+
+  }
+}

@@ -9,7 +9,7 @@ Download the latest release.
 Clone the repo:
 
 ```
-git clone https://github.com/dtux0986/om-wp.git
+git clone https://github.com/dtux0986/om-starter-html-template.git
 ```
 
 ## What's Included
