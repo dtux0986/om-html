@@ -46,15 +46,33 @@ img {
 /**
  * MEDIA
  * -------------------------------------------------- */
+/**
+ * CAROUSEL
+ * -------------------------------------------------- */
 .o-carousel {
   background-color: #f5f5f5; }
-  .o-carousel__block {
-    position: relative; }
-  .o-carousel__block--wrapper {
+  .o-carousel__inner {
     height: 75vh;
     display: table-cell;
     vertical-align: middle;
     text-align: center; }
+
+/**
+ * PARALLAX
+ * -------------------------------------------------- */
+.o-parallax__wrapper {
+  width: 100%;
+  background-position: center;
+  position: relative;
+  text-align: center; }
+
+.o-parallax__inner {
+  position: absolute;
+  padding: 50px 0;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%); }
 
 /**
  * HEADER
@@ -65,3 +83,14 @@ img {
 /**
  * FOOTER
  * -------------------------------------------------- */
+/**
+ * ScrollMagic
+ * -------------------------------------------------- */
+.o-parallax {
+  height: 500px;
+  overflow: hidden; }
+
+.o-parallax > * {
+  height: 200%;
+  position: relative;
+  top: -100%; }

@@ -32,6 +32,7 @@
     "shufflejs": "*",
     "malihu-custom-scrollbar-plugin": "*",
     "smoothscroll-for-websites": "^1.4.6",
-    "lazysizes": "^3.0.0"
+    "lazysizes": "^3.0.0",
+    "scrollmagic": "ScrollMagic#^2.0.5"
   }
 }

@@ -1,11 +1,15 @@
+/**
+ * CAROUSEL
+ * -------------------------------------------------- */
+
 .o-carousel {
   background-color: #f5f5f5;
 
-  &__block {
-    position: relative;
+  &__wrapper {
+
   }
 
-  &__block--wrapper {
+  &__inner{
     height: 75vh;
     display: table-cell;
     vertical-align: middle;

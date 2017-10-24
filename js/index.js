@@ -1,23 +1,22 @@
 'use strict';
 
-(function($){
+import $ from 'jquery';
 
-	$(document).ready(function () {
-		var controller = new ScrollMagic.Controller({
-			globalSceneOptions: {
-				triggerHook: "onEnter",
-				duration: "200%"
-			}
-		});
+const om = {};
 
-		// build scenes
-		new ScrollMagic.Scene({triggerElement: "#o-parallax"})
-				.setTween("#o-parallax > div", {y: "70%", ease: Linear.easeNone})
-				.addTo(controller);
-
-		new ScrollMagic.Scene({triggerElement: "#o-parallax"})
-				.setTween("#o-parallax > div", {y: "100%", ease: Linear.easeNone})
-				.addTo(controller);
+om.parallax = function () {
+	let controller = new ScrollMagic.Controller({
+		globalSceneOptions: {
+			triggerHook: "onEnter",
+			duration: "200%"
+		}
 	});
 
-})(jQuery);
+	new ScrollMagic.Scene({triggerElement: "#o-parallax"})
+			.setTween("#o-parallax > div", {y: "70%", ease: Linear.easeNone})
+			.addTo(controller);
+};
+
+$(document).ready(function () {
+	om.parallax();
+});

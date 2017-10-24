@@ -1,0 +1,33 @@
+/**
+ * PARALLAX
+ * -------------------------------------------------- */
+
+.o-parallax {
+
+  &__wrapper {
+    width: 100%;
+    background-position: center;
+    position: relative;
+    text-align: center;
+
+  }
+
+  &__inner {
+    position: absolute;
+    padding: 50px 0;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  &__title {
+  }
+
+  &__summary {
+  }
+
+  &__cta {
+
+  }
+}
