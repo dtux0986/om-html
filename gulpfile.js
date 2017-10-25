@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
 		sass = require('gulp-sass'),
-		livereload = require('gulp-livereload'),
+		webpack = require("webpack-stream"),
 		watch = require('gulp-watch'),
-		babel = require("gulp-babel");
+		livereload = require('gulp-livereload');
 
 gulp.task('sass', function () {
 	return gulp.src(['scss/styles.scss'])
@@ -11,10 +11,10 @@ gulp.task('sass', function () {
 			.pipe(livereload());
 });
 
-gulp.task("babel", function () {
-	return gulp.src("js/index.js")
-			.pipe(babel())
-			.pipe(gulp.dest("js/build"))
+gulp.task('webpack-stream', function() {
+	return gulp.src('js/index.js')
+			.pipe(webpack(require('./webpack.config.js')))
+			.pipe(gulp.dest(''))
 			.pipe(livereload());
 });
 
@@ -23,8 +23,8 @@ gulp.task('watch', function () {
 	gulp.watch('**/*.css', livereload.reload);
 	gulp.watch(['scss/*.scss', 'scss/*/*.scss'], ['sass'],livereload.reload);
 	gulp.watch(['images/*', 'images/*/*'], livereload.reload);
-	gulp.watch(['js/*.js', 'js/*/*.js'], livereload.reload);
+	gulp.watch(['js/*.js', 'js/*/*.js'], ['webpack-stream'], livereload.reload);
 	gulp.watch('**/*.html', livereload.reload);
 });
 
-gulp.task('default', ['sass', 'babel','watch']);
+gulp.task('default', ['sass', 'webpack-stream', 'watch']);

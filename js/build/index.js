@@ -79,19 +79,19 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var om = {};
 
 om.parallax = function () {
-	(0, _jquery2.default)(document).ready(function () {
-		var controller = new ScrollMagic.Controller({
-			globalSceneOptions: {
-				triggerHook: "onEnter",
-				duration: "200%"
-			}
-		});
-
-		new ScrollMagic.Scene({ triggerElement: "#o-parallax" }).setTween("#o-parallax > div", { y: "70%", ease: Linear.easeNone }).addTo(controller);
+	var controller = new ScrollMagic.Controller({
+		globalSceneOptions: {
+			triggerHook: "onEnter",
+			duration: "200%"
+		}
 	});
+
+	new ScrollMagic.Scene({ triggerElement: "#o-parallax" }).setTween("#o-parallax > div", { y: "70%", ease: Linear.easeNone }).addTo(controller);
 };
 
-om.parallax();
+(0, _jquery2.default)(document).ready(function () {
+	om.parallax();
+});
 
 /***/ }),
 /* 1 */

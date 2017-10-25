@@ -1,5 +1,5 @@
 {
-  "name": "OM Starter HTML Template",
+  "name": "om-starter-html-project",
   "description": "OM Starter HTML Template",
   "version": "1.0.0",
   "keywords": [
@@ -23,18 +23,19 @@
   "bugs": {
     "url": "https://github.com/dtux0986/om-starter-html-template/issues"
   },
-  "license": "GNU General Public License v3.0",
+  "license": "GPL-3.0+",
   "dependencies": {
     "jquery": "^3.2.1"
   },
   "devDependencies": {
+    "aos": "^2.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
-    "bower": "^1.7.9",
+    "bootstrap": "^4.0.0-beta.2",
     "gsap": "^1.20.3",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
@@ -45,8 +46,24 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
+    "imagesloaded": "^4.1.3",
     "jquery": "^3.2.1",
-    "jshint": "^2.9.3",
-    "webpack": "^3.8.1"
+    "jshint": "^2.9.5",
+    "lazysizes": "^4.0.0",
+    "malihu-custom-scrollbar-plugin": "^3.1.5",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.1.1",
+    "popper.js": "^1.12.3",
+    "scrollmagic": "^2.0.5",
+    "shufflejs": "^5.0.2",
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-for-websites": "^1.4.6",
+    "webpack": "^3.8.1",
+    "webpack-stream": "^4.0.0"
+  },
+  "scripts": {
+    "all": "npm-run-all scss webpack",
+    "scss": "node-sass --output-style compressed -o . scss/styles.scss",
+    "webpack": "webpack"
   }
 }

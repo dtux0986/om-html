@@ -1,3 +1,34 @@
 /**
  * FOOTER
  * -------------------------------------------------- */
+
+.site-footer {
+  background-color: $gray-900;
+
+  /* Listing Element */
+  .o-listing {
+    .o-listing__wrapper {
+
+    }
+    .o-listing__title {
+
+    }
+  }
+
+  /* Copyright Component */
+  .o-copyright {
+
+  }
+
+  /* Footer Menu */
+
+  .o-footer-menu {
+    ul {
+      li {
+        a {
+
+        }
+      }
+    }
+  }
+}
