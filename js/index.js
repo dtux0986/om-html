@@ -4,6 +4,8 @@ import $ from 'jquery';
 
 const om = {};
 
+const hello = "Hello World";
+
 om.parallax = function () {
 	let controller = new ScrollMagic.Controller({
 		globalSceneOptions: {
@@ -11,6 +13,7 @@ om.parallax = function () {
 			duration: "200%"
 		}
 	});
+
 
 	new ScrollMagic.Scene({triggerElement: "#o-parallax"})
 			.setTween("#o-parallax > div", {y: "70%", ease: Linear.easeNone})
