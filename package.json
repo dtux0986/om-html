@@ -63,7 +63,7 @@
     "scss": "node-sass --output-style compressed -o build/css scss/styles.scss",
     "webpack": "webpack",
     "imagemin": "imagemin images/* -o build/images",
-    "serve": "browser-sync start --server --files \"*.css, build/*/*.js, build/images, **/*.html, !node_modules/**/*.html\"",
+    "serve": "browser-sync start --server --files \"build/css/*.css, build/js/*.js, build/images/*.jpg, **/*.html, !node_modules/**/*.html\"",
     "build:css": "run-s scss autoprefixer",
     "build:js": "webpack",
     "build:images": "run-s imagemin",

@@ -3,28 +3,39 @@
  * -------------------------------------------------- */
 
 .o-parallax {
+  height: 40.625rem; /*650px*/
+  overflow: hidden;
 
   &__wrapper {
     width: 100%;
-    background-position: center;
+    height: 100%;
     position: relative;
     text-align: center;
-
+    color: $white;
   }
 
-  &__inner {
+  &__block {
     position: absolute;
-    padding: 50px 0;
     top: 50%;
     left: 0;
     right: 0;
+    z-index: 99;
     transform: translateY(-50%);
   }
 
+  &__background {
+    height: 200%;
+    background-position: center;
+    position: relative;
+    top: -100%;
+  }
+
   &__title {
+    margin-bottom: 2.5rem;
   }
 
   &__summary {
+    margin-bottom: 2.5rem;
   }
 
   &__cta {

@@ -1,3 +1,60 @@
 /**
  * ELEMENTS
  * -------------------------------------------------- */
+
+/* Button Class */
+
+.btn {
+  border: none;
+  border-radius: 0;
+  padding: 1.0625rem 1.875rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+
+}
+
+.btn-secondary {
+
+}
+
+.btn-success {
+
+}
+
+.btn-danger {
+
+}
+
+.btn-warning {
+
+}
+
+.btn-info {
+
+}
+
+.btn-light {
+
+}
+
+.btn-dark {
+
+}
+
+/* Button Sizes */
+
+.btn-sm {
+  padding: 0.6875rem 1.25rem;
+}
+
+.btn-md {
+  padding: 1.0625rem 1.875rem;
+}
+
+.btn-lg {
+  padding: 1.6875rem 3.125rem;
+}

@@ -5,32 +5,40 @@
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
+  font-weight: 300;
+  line-height: $line-height-base;
 }
 
 /* Headlines */
 
 h1 {
-  font-size: 48px;
+  font-size: 3.75rem; /*60px*/
+  font-weight: 700;
 }
 
 h2 {
-
+  font-size: 3rem; /*48px*/
+  font-weight: 700;
 }
 
 h3 {
-
+  font-size: 2.25rem; /*36px*/
+  font-weight: 700;
 }
 
 h4 {
-
+  font-size: 1.5rem; /*24px*/
+  font-weight: 700;
 }
 
 h5 {
-
+  font-size: 1.125rem; /*18px*/
+  font-weight: 700;
 }
 
 h6 {
-
+  font-size: 1rem; /*16px*/
+  font-weight: 700;
 }
 
 /* Image */
@@ -38,4 +46,80 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Button */
+
+button {
+
+}
+
+button[type="button"],
+button[type="submit"],
+button[type="reset"] {
+
+}
+
+/* Form */
+
+form {
+
+}
+
+input {
+
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="checkbox"],
+input[type="color"],
+input[type="date"],
+input[type="email"],
+input[type="file"],
+input[type="hidden"],
+input[type="image"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="radio"],
+input[type="range"],
+input[type="reset"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: none;
+  border-radius: 0;
+  font-size: 0.75rem;
+}
+
+input[type="date"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  padding: 0.75rem 0.9375rem;
+}
+
+/* Lists */
+
+ol, ul {
+
+}
+
+li {
+  font-size: 0.875rem;
+}
+
+li:not(:last-child) {
+  margin-bottom: 0.3125rem;
 }

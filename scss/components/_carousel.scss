@@ -3,24 +3,39 @@
  * -------------------------------------------------- */
 
 .o-carousel {
-  background-color: #111111;
 
   &__wrapper {
-
+    background: url('../../build/images/carousel-bg.jpg');
+    color: $white;
   }
 
-  &__inner{
-    height: 75vh;
+  &__inner {
+    height: 90vh;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
   }
 
-  &__title {
+  &__logo {
+    img {
+      max-width: 18.75rem; /*300px*/
+    }
+  }
 
+  &__title {
+    margin-top: 2.75rem;
+    h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
   }
 
   &__sub {
-
+    margin-top: 2.25rem;
+    p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.75rem;
+    }
   }
 }

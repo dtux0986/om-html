@@ -11,8 +11,8 @@
 }
 
 .o-row-padded {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5rem; /*80px*/
+  padding-bottom: 5rem; /*80px*/
 }
 
 .o-row-centered {
@@ -26,4 +26,20 @@
 
 .o-col-right {
 
+}
+
+.o-border-top {
+  border-top: 1px solid $gray-200;
+}
+
+.o-border-right {
+  border-right: 1px solid $gray-200;
+}
+
+.o-border-bottom {
+  border-bottom: 1px solid $gray-200;
+}
+
+.o-border-left {
+  border-left: 1px solid $gray-200;
 }

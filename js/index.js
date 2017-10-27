@@ -1,10 +1,13 @@
 'use strict';
 
 import $ from 'jquery';
+import SmoothScroll from 'smoothscroll-for-websites';
 
 const om = {};
 
-const hello = "Hello World";
+om.smoothscroll = function() {
+	new SmoothScroll;
+};
 
 om.parallax = function () {
 	let controller = new ScrollMagic.Controller({
@@ -14,12 +17,22 @@ om.parallax = function () {
 		}
 	});
 
-
 	new ScrollMagic.Scene({triggerElement: "#o-parallax"})
-			.setTween("#o-parallax > div", {y: "70%", ease: Linear.easeNone})
+			.setTween("#o-parallax .o-parallax__background", {y: "70%", ease: Linear.easeNone})
 			.addTo(controller);
 };
 
 $(document).ready(function () {
+
+	/**
+	 * SmoothScroll
+	 */
+
+	om.smoothscroll();
+
+	/**
+	 * Parallax
+	 */
+
 	om.parallax();
 });
