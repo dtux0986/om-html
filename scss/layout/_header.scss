@@ -1,3 +1,31 @@
 /**
  * HEADER
  * -------------------------------------------------- */
+
+header.site-header {
+  .o-message {
+    p {
+      margin: 0;
+      font-size: 0.75rem; /*12px*/
+      text-transform: uppercase;
+      color: $white;
+    }
+  }
+  .o-branding {
+    img {
+      max-width: 3.125rem; /*50px*/
+    }
+  }
+  .o-search {
+    i {
+      padding: 1rem;
+      background-color: $primary;
+      color: $white;
+    }
+    input {
+      border: none;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: $white;
+    }
+  }
+}

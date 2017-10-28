@@ -57,40 +57,90 @@
 
 		<header id="masthead" class="site-header">
 
-			<div class="o-top-links">
-				<div class="o-welcome">
-
-				</div>
-			</div>
-
-			<div class="o-main-navigation">
-
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="#">Navbar</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#">Disabled</a>
-							</li>
-						</ul>
-						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-						</form>
+			<div class="o-top-navigation">
+				<div class="o-top-navigation__wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="o-message h-100 d-flex align-items-center">
+									<p>Welcome to Hogwarts</p>
+								</div><!--message-->
+							</div>
+							<div class="col-12 col-md-6">
+								<div class="o-top-menu">
+									<nav id="site-navigation--top" class="site-navigation--top d-flex align-items-center justify-content-end">
+										<ul class="nav">
+											<li id="nav-item-top-01" class="nav-item">
+												<a class="nav-link active" href="#">Profile</a>
+											</li>
+											<li id="nav-item-top-02" class="nav-item">
+												<a class="nav-link" href="#">Portfolio</a>
+											</li>
+											<li id="nav-item-top-03" class="nav-item">
+												<a class="nav-link" href="#">Career</a>
+											</li>
+											<li id="nav-item-top-04" class="nav-item">
+												<a class="nav-link" href="#">Contact</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
 					</div>
-				</nav>
+				</div>
+			</div><!--top-navigation-->
 
-			</div>
+			<nav id="o-main-navigation" class="o-main-navigation">
+				<div class="o-main-navigation__wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-1">
+								<div class="o-branding h-100 d-flex align-items-center">
+									<a class="o-branding__link" href="#">
+										<img src="images/logo.png" alt="Logo">
+									</a>
+								</div><!--branding-->
+							</div>
+							<div class="col-12 col-md-8">
+								<div class="o-main-menu">
+									<nav id="site-navigation--main" class="site-navigation--main d-flex align-items-center">
+										<ul class="nav">
+											<li id="nav-item-main-01" class="nav-item">
+												<a class="nav-link active" href="#">Home</a>
+											</li>
+											<li id="nav-item-main-02" class="nav-item dropdown">
+												<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SCSS</a>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="#">Base</a>
+													<a class="dropdown-item" href="#">Components</a>
+													<a class="dropdown-item" href="#">Helpers</a>
+													<a class="dropdown-item" href="#">Vendors</a>
+												</div>
+											</li>
+											<li id="nav-item-main-03" class="nav-item">
+												<a class="nav-link" href="#">Typography</a>
+											</li>
+											<li id="nav-item-main-04" class="nav-item">
+												<a class="nav-link" href="#">Elements</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="col-12 col-md-3">
+								<div class="o-search h-100 d-flex align-items-center justify-content-end">
+									<input type="text" value="" placeholder="Enter your keywords"/>
+									<a href="javascript:;">
+										<i class="fa fa-search"></i>
+									</a>
+								</div><!--search-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav><!--main-navigation-->
+
 		</header>
 		<!--!site-header-->
 
@@ -283,7 +333,6 @@
 							</section><!--parallax-section-->
 
 							<section id="o-subscription" class="o-subscription">
-
 								<div class="o-subscription__wrapper">
 									<div class="container">
 										<div class="row o-row-padded o-row-centered">
@@ -323,7 +372,7 @@
 										</div>
 									</div>
 								</div>
-							</section>
+							</section><!--subscription-section-->
 
 						</div>
 					</div>
@@ -341,7 +390,7 @@
 						<div class="col"></div>
 					</div>
 				</div>
-			</section>
+			</section><!--top-footer-->
 
 			<section id="site-footer__main" class="site-footer__main">
 				<div class="container">
@@ -446,41 +495,43 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section><!--main-footer-->
 
 			<section id="site-footer__bottom" class="site-footer__bottom">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-sm-6">
-							<section id="o-copyright" class="o-copyright">
+							<section id="o-copyright" class="o-copyright h-100 d-flex align-items-center ">
 								<div class="o-copyright__wrapper">
 									<p class="text-light">Copyright © 2017 Tu Dinh Xuan</p>
 								</div>
 							</section>
 						</div>
 						<div class="col-12 col-sm-6">
-							<section id="o-footer-menu" class="o-footer-menu">
-								<div class="o-footer-menu__wrapper">
-									<ul class="list-inline float-sm-right">
-										<li class="list-inline-item">
-											<a href="#">Home</a>
-										</li>
-										<li class="list-inline-item">
-											<a href="#">Terms & Conditions</a>
-										</li>
-										<li class="list-inline-item">
-											<a href="#">Privacy</a>
-										</li>
-										<li class="list-inline-item">
-											<a href="#">Contact Us</a>
-										</li>
-									</ul>
+							<section class="o-footer-navigation">
+								<div class="o-top-navigation__wrapper">
+									<div class="o-footer-menu">
+										<nav id="site-navigation--footer" class="site-navigation--footer d-flex align-items-center justify-content-end">
+											<ul class="nav">
+												<li id="nav-item-footer-01" class="nav-item">
+													<a class="nav-link active" href="#">Home</a>
+												</li>
+												<li id="nav-item-footer-02" class="nav-item">
+													<a class="nav-link" href="#">Terms & Conditions</a>
+												</li>
+												<li id="nav-item-footer-03" class="nav-item">
+													<a class="nav-link" href="#">Privacy</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
 								</div>
 							</section>
+
 						</div>
 					</div>
 				</div>
-			</section>
+			</section><!--bottom-footer-->
 
 		</footer>
 		<!--!site-footer-->

@@ -15,7 +15,7 @@
 
   &__bottom {
     background-color: $black;
-    padding: 2rem 0 0.5rem 0;
+    padding: 1rem 0;
   }
 
   /* Listing Element */
@@ -31,6 +31,9 @@
   /* Copyright Component */
   .o-copyright {
     font-size: 0.875rem;
+    p {
+      margin-bottom: 0;
+    }
   }
 
   /* Footer Menu */

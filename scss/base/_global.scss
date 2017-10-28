@@ -41,6 +41,28 @@ h6 {
   font-weight: 700;
 }
 
+/* Paragraphs */
+
+p {
+
+}
+
+pre {
+
+}
+
+blockquote {
+
+}
+
+address {
+
+}
+
+hr {
+
+}
+
 /* Image */
 
 img {
@@ -67,7 +89,7 @@ form {
 }
 
 input {
-
+  outline: none;
 }
 
 input[type="submit"],
@@ -108,6 +130,10 @@ input[type="time"],
 input[type="url"],
 input[type="week"] {
   padding: 0.75rem 0.9375rem;
+}
+
+textarea {
+
 }
 
 /* Lists */
