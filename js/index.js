@@ -1,25 +1,23 @@
 'use strict';
 
 import $ from 'jquery';
+
 import SmoothScroll from 'smoothscroll-for-websites';
+import Carousel from './slick';
+import SM from './scrollmagic';
 
 const om = {};
 
-om.smoothscroll = function() {
+om.smoothscroll = function () {
 	new SmoothScroll;
 };
 
-om.parallax = function () {
-	let controller = new ScrollMagic.Controller({
-		globalSceneOptions: {
-			triggerHook: "onEnter",
-			duration: "200%"
-		}
-	});
+om.carousel = function () {
+	Carousel.testimonials();
+};
 
-	new ScrollMagic.Scene({triggerElement: "#o-parallax"})
-			.setTween("#o-parallax .o-parallax__background", {y: "70%", ease: Linear.easeNone})
-			.addTo(controller);
+om.parallax = function () {
+	SM.parallax();
 };
 
 $(document).ready(function () {
@@ -35,4 +33,11 @@ $(document).ready(function () {
 	 */
 
 	om.parallax();
+
+	/**
+	 * Carousel
+	 */
+	om.carousel();
 });
+
+export default om;

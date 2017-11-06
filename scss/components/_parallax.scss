@@ -1,5 +1,5 @@
 /**
- * PARALLAX
+ * Parallax
  * -------------------------------------------------- */
 
 .o-parallax {
@@ -14,13 +14,26 @@
     color: $white;
   }
 
-  &__block {
+  /*Content Group Override*/
+  .o-content-group {
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
     z-index: 99;
     transform: translateY(-50%);
+
+    &__title {
+
+    }
+
+    &__caption {
+
+    }
+
+    &__action {
+
+    }
   }
 
   &__background {
@@ -28,17 +41,5 @@
     background-position: center;
     position: relative;
     top: -100%;
-  }
-
-  &__title {
-    margin-bottom: 2.5rem;
-  }
-
-  &__summary {
-    margin-bottom: 2.5rem;
-  }
-
-  &__cta {
-
   }
 }

@@ -24,10 +24,8 @@ Within the download archive you'll find the following directories and files, log
 ##### JQuery
 ##### LazySizes
 ##### Custom Scrollbar
-##### ShuffleJS
 ##### Slick Carousel
 ##### SmoothScroll for Websites
-##### TwentyTwenty
 ##### Font Awesome
 ##### Google Fonts
 
@@ -36,3 +34,9 @@ Within the download archive you'll find the following directories and files, log
 ## Development
 
 ## Copyright and License
+
+## Sponsor
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/YeCwWfh5aF5PLhy7fZa1mkuP/dtux0986/om-starter-html-template'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/YeCwWfh5aF5PLhy7fZa1mkuP/dtux0986/om-starter-html-template.svg' />
+</a>

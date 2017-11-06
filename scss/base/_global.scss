@@ -1,5 +1,5 @@
 /**
- * GLOBAL
+ * Global
  * -------------------------------------------------- */
 
 body {
@@ -9,39 +9,15 @@ body {
   line-height: $line-height-base;
 }
 
-/* Headlines */
-
-h1 {
-  font-size: 3.75rem; /*60px*/
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 3rem; /*48px*/
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 2.25rem; /*36px*/
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 1.5rem; /*24px*/
-  font-weight: 700;
-}
-
-h5 {
-  font-size: 1.125rem; /*18px*/
-  font-weight: 700;
-}
-
-h6 {
-  font-size: 1rem; /*16px*/
-  font-weight: 700;
-}
-
 /* Paragraphs */
+
+a {
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary;
+  }
+}
 
 p {
 
@@ -92,44 +68,48 @@ input {
   outline: none;
 }
 
-input[type="submit"],
-input[type="button"],
-input[type="checkbox"],
-input[type="color"],
-input[type="date"],
-input[type="email"],
-input[type="file"],
-input[type="hidden"],
-input[type="image"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="radio"],
-input[type="range"],
-input[type="reset"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"] {
-  border: none;
-  border-radius: 0;
-  font-size: 0.75rem;
+input {
+  &[type="submit"],
+  &[type="button"],
+  &[type="checkbox"],
+  &[type="color"],
+  &[type="date"],
+  &[type="email"],
+  &[type="file"],
+  &[type="hidden"],
+  &[type="image"],
+  &[type="month"],
+  &[type="number"],
+  &[type="password"],
+  &[type="radio"],
+  &[type="range"],
+  &[type="reset"],
+  &[type="search"],
+  &[type="tel"],
+  &[type="text"],
+  &[type="time"],
+  &[type="url"],
+  &[type="week"] {
+    border: none;
+    border-radius: 0;
+    font-size: 0.75rem;
+  }
 }
 
-input[type="date"],
-input[type="email"],
-input[type="month"],
-input[type="number"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="text"],
-input[type="time"],
-input[type="url"],
-input[type="week"] {
-  padding: 0.75rem 0.9375rem;
+input {
+  &[type="date"],
+  &[type="email"],
+  &[type="month"],
+  &[type="number"],
+  &[type="password"],
+  &[type="search"],
+  &[type="tel"],
+  &[type="text"],
+  &[type="time"],
+  &[type="url"],
+  &[type="week"] {
+    padding: 0.75rem 0.9375rem;
+  }
 }
 
 textarea {
@@ -148,4 +128,75 @@ li {
 
 li:not(:last-child) {
   margin-bottom: 0.3125rem;
+}
+
+/* Typography */
+
+.o-font-weight-100 {
+  font-weight: 100;
+}
+
+.o-font-weight-200 {
+  font-weight: 200;
+}
+
+.o-font-weight-300 {
+  font-weight: 300;
+}
+
+.o-font-weight-400 {
+  font-weight: 400;
+}
+
+.o-font-weight-500 {
+  font-weight: 500;
+}
+
+.o-font-weight-600 {
+  font-weight: 600;
+}
+
+.o-font-weight-700 {
+  font-weight: 700;
+}
+
+.o-font-weight-800 {
+  font-weight: 800;
+}
+
+.o-font-weight-900 {
+  font-weight: 900;
+}
+
+
+/* Headlines */
+
+h1 {
+  font-size: 3.75rem; /*60px*/
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3rem; /*48px*/
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2.25rem; /*36px*/
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.5rem; /*24px*/
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.125rem; /*18px*/
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 1rem; /*16px*/
+  font-weight: 700;
 }

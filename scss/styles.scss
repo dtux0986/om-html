@@ -19,16 +19,19 @@ License URI: license.txt
 @import "base/grid";
 @import "base/elements";
 
-@import "components/navigation";
-@import "components/media";
+@import "vendors/bootstrap";
+@import "vendors/slick";
+@import "vendors/scrollmagic";
+
+@import "components/content-group";
+@import "components/navigations";
 @import "components/carousel";
 @import "components/parallax";
-@import "components/welcome";
 @import "components/icon-boxes";
 @import "components/subscription";
+@import "components/testimonials";
+@import "components/modal";
+@import "components/misc";
 
 @import "layout/header";
-@import "layout/navigations";
 @import "layout/footer";
-
-@import 'vendors/scrollmagic';

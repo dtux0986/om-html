@@ -1,8 +1,8 @@
 /**
- * ELEMENTS
+ * Elements
  * -------------------------------------------------- */
 
-/* Button Class */
+/* Button */
 
 .btn {
   border: none;
@@ -57,4 +57,28 @@
 
 .btn-lg {
   padding: 1.6875rem 3.125rem;
+}
+
+
+/* Listing */
+.o-listing {
+
+  &__wrapper {
+
+  }
+
+  &__title {
+
+  }
+
+  ul {
+    li {
+      a {
+
+      }
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
 }

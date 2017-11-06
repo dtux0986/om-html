@@ -1,9 +1,9 @@
 /**
- * FOOTER
+ * Footer
  * -------------------------------------------------- */
 
 .site-footer {
-  background-color: $gray-900;
+  background-color: lighten($black, 5);
 
   &__top {
 
@@ -11,39 +11,45 @@
 
   &__main {
 
+    /* Listing Override */
+    .o-listing {
+      &__wrapper {
+
+      }
+
+      &__title {
+        margin-bottom: 1.375rem; /*22px*/
+         h6 {
+           font-size: 0.75rem; /*12px*/
+           font-weight: 300;
+           letter-spacing: 0.3125rem; /*5px*/
+           text-transform: uppercase;
+         }
+      }
+
+      ul {
+        margin-bottom: 0;
+        li {
+          margin-bottom: 0.6875rem; /*11px*/
+          a {
+            color: $white;
+            &:hover, &:focus, &:active {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
   }
 
   &__bottom {
     background-color: $black;
     padding: 1rem 0;
-  }
 
-  /* Listing Element */
-  .o-listing {
-    .o-listing__wrapper {
-
-    }
-    .o-listing__title {
-
-    }
-  }
-
-  /* Copyright Component */
-  .o-copyright {
-    font-size: 0.875rem;
-    p {
-      margin-bottom: 0;
-    }
-  }
-
-  /* Footer Menu */
-
-  .o-footer-menu {
-    ul {
-      li {
-        a {
-
-        }
+    /*Copyright Override*/
+    .o-copyright {
+      p {
+        font-size: 0.75rem;
       }
     }
   }
