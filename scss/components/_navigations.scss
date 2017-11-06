@@ -1,0 +1,102 @@
+/**
+ * NAVIGATION
+ * -------------------------------------------------- */
+
+/* Top Navigation */
+.o-top-navigation {
+  .o-top-navigation__wrapper {
+
+  }
+
+  .o-top-menu {}
+
+  nav.site-navigation--top {
+
+  }
+
+  ul.nav {
+    li.nav-item {
+      margin: 0;
+
+      a.nav-link {
+        padding: .5rem .625rem;
+        font-size: 0.75rem; /*12px*/
+        text-transform: capitalize;
+      }
+    }
+    li.dropdown {
+      .dropdown-menu {
+        a.dropdown-item {
+
+        }
+      }
+    }
+  }
+
+}
+
+/* Main Navigation */
+.o-main-navigation {
+  .o-main-navigation__wrapper {
+    background-color: $black;
+  }
+
+  .o-main-menu {
+
+  }
+
+  nav.site-navigation--main {
+    min-height: 6.25rem; /*100px*/
+  }
+
+  ul.navbar-nav {
+    li.nav-item {
+      margin: 0 1.25rem 0 0;
+
+      a.nav-link {
+        font-weight: 700;
+      }
+    }
+    li.dropdown {
+      .dropdown-menu {
+
+        a.dropdown-item {
+
+        }
+      }
+    }
+  }
+}
+
+/* Footer Navigation */
+.o-footer-navigation {
+  .o-footer-navigation__wrapper {
+    background-color: $gray-900;
+  }
+
+  .o-top-menu {}
+
+  nav.site-navigation--top {
+
+  }
+
+  ul.nav {
+    li.nav-item {
+      margin: 0;
+
+      a.nav-link {
+        font-size: 0.75rem; /*12px*/
+        text-transform: uppercase;
+      }
+    }
+    li.dropdown {
+      .dropdown-menu {
+        a.dropdown-item {
+
+        }
+      }
+    }
+  }
+
+}
+
