@@ -2,23 +2,28 @@
  * Elements
  * -------------------------------------------------- */
 
-/* Button */
+/* Typography */
+
+/* Bootstrap Button */
 
 .btn {
   border: none;
-  border-radius: 0;
+  border-radius: 0.3125rem;
   padding: 1.0625rem 1.875rem;
+  font-family: $headings-font-family;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 .btn-primary {
   background-color: $primary;
+  color: $white;
 }
 
 .btn-secondary {
   background-color: $secondary;
+  color: $primary;
 }
 
 .btn-success {
@@ -37,48 +42,62 @@
 
 }
 
-.btn-light {
-
-}
-
-.btn-dark {
-
-}
-
 /* Button Sizes */
 
 .btn-sm {
-  padding: 0.6875rem 1.25rem;
+  padding: 0.6875rem 1.5625rem 0.5625rem 1.5625rem; /*11px 25px 9px 25px*/
+  font-size: 0.75rem; /*12px*/
 }
 
 .btn-md {
-  padding: 1.0625rem 1.875rem;
+  padding: 1rem 1.875rem 0.875rem 1.875rem; /*16px 30px 14px 40px*/
+  font-size: 0.875rem; /*14px*/
 }
 
 .btn-lg {
-  padding: 1.6875rem 3.125rem;
+  padding: 1.3125rem 2.8125rem 1.1875rem 2.8125rem; /*21px 45px 19px 45px*/
+  font-size: 1rem; /*16px*/
 }
 
+/* Background */
 
-/* Listing */
-.o-listing {
+.bg-white {
+  background-color: $white;
+  color: $primary;
+}
 
-  &__wrapper {
+.bg-black {
+  background-color: $black;
+  color: $white;
+}
 
-  }
+.btn-light {
+  background-color: $gray-100;
+  color: $primary;
+}
 
-  &__title {
+.btn-dark {
+  background-color: $gray-900;
+  color: $white;
+}
 
-  }
+.bg-teal {
+  background-color: $teal;
+  color: $white;
+}
 
-  ul {
-    li {
-      a {
+.bg-yellow {
+  background-color: $yellow;
+  color: $primary;
+}
 
-      }
-      &:last-child {
-        margin-bottom: 0 !important;
-      }
-    }
-  }
+.bg-green {
+  background-color: $green;
+  color: $white;
+}
+
+@media (min-width: 992px) {
+.learn-press-courses li.course:nth-child(4n+1) {
+  clear: left;
+}
 }

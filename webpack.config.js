@@ -1,3 +1,6 @@
+const webpack = require('webpack');
+const path = require('path');
+
 module.exports = {
 	entry: './js/index.js',
 	output: {
@@ -14,5 +17,18 @@ module.exports = {
 				}
 			}
 		],
-	}
+	},
+	plugins: [
+		new webpack.ProvidePlugin({
+			$: 'jquery',
+			jQuery: 'jquery',
+			'window.jQuery': 'jquery',
+			Popper: ['popper.js', 'default']
+		}),
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false
+			}
+		})
+	]
 };

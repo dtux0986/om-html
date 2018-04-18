@@ -2,6 +2,8 @@
 
 ## Table of Contents
 
+
+
 ## Quick Start
 
 Download the latest release.
@@ -12,6 +14,26 @@ Clone the repo:
 git clone https://github.com/dtux0986/om-starter-html-template.git
 ```
 
+Install all dependencies
+
+npm install
+
+Using NPM as a Build Tool
+
+Run Clean Files
+
+npm run clean
+
+Run Build Files
+
+npm run build
+
+Run Watch & Build Files
+
+npm run watch
+
+And go to or http://localhost:3000 in your browser
+
 ## What's Included
 
 Within the download archive you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
@@ -19,21 +41,25 @@ Within the download archive you'll find the following directories and files, log
 ## Dependencies
 
 ##### AOS
-##### Bootstrap v4.0.0-beta
-##### ImagesLoaded
 ##### JQuery
+##### Bootstrap v4.0.0-beta2
+##### ImagesLoaded
 ##### LazySizes
 ##### Custom Scrollbar
-##### Slick Carousel
+##### Slick
 ##### SmoothScroll for Websites
 ##### Font Awesome
 ##### Google Fonts
 
 ## Browser Support
 
+IE11, IE Edge, Chrome, Safari, Firefox
+
 ## Development
 
 ## Copyright and License
+
+GNU General Public License v3.0
 
 ## Sponsor
 

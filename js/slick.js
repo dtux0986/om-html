@@ -1,12 +1,10 @@
 'use strict';
 
-import $ from 'jquery';
-
 import 'slick-carousel';
 
-const Carousel = {};
+const Slick = {};
 
-Carousel.testimonials = function () {
+Slick.testimonials = function () {
 
 	const slider = '.o-testimonials__slider';
 
@@ -19,4 +17,4 @@ Carousel.testimonials = function () {
 	});
 };
 
-export default Carousel;
+export default Slick;

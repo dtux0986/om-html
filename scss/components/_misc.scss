@@ -4,6 +4,9 @@
 
 /* Message */
 .o-message {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
   p {
     margin: 0;
     font-size: 0.75rem; /*12px*/
@@ -22,6 +25,11 @@
 /* Search */
 .o-search {
   position: relative;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
   i {
     position: absolute;
     right: 1.25rem; /*20px*/

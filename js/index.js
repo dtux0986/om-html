@@ -1,22 +1,22 @@
 'use strict';
 
-import $ from 'jquery';
+import 'bootstrap';
 
 import SmoothScroll from 'smoothscroll-for-websites';
 import Carousel from './slick';
 import SM from './scrollmagic';
 
-const om = {};
+const OM = {};
 
-om.smoothscroll = function () {
+OM.smoothscroll = function () {
 	new SmoothScroll;
 };
 
-om.carousel = function () {
+OM.carousel = function () {
 	Carousel.testimonials();
 };
 
-om.parallax = function () {
+OM.parallax = function () {
 	SM.parallax();
 };
 
@@ -26,18 +26,18 @@ $(document).ready(function () {
 	 * SmoothScroll
 	 */
 
-	om.smoothscroll();
+	OM.smoothscroll();
 
 	/**
 	 * Parallax
 	 */
 
-	om.parallax();
+	OM.parallax();
 
 	/**
 	 * Carousel
 	 */
-	om.carousel();
+	OM.carousel();
 });
 
-export default om;
+export default OM;
