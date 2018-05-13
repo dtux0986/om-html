@@ -2,37 +2,49 @@
 
 ## Table of Contents
 
-
-
 ## Quick Start
 
-Download the latest release.
-
-Clone the repo:
+### Download the latest release or Clone the repository:
 
 ```
 git clone https://github.com/dtux0986/om-starter-html-template.git
 ```
 
-Install all dependencies
+### Install all dependencies
 
+```
 npm install
+```
 
-Using NPM as a Build Tool
+### Using NPM as a Build Tool
+
+Quick start by run all Watch & Build scripts
+
+```
+npm run start
+```
+
+Or run a single script as you need
 
 Run Clean Files
 
+```
 npm run clean
+```
 
 Run Build Files
 
+```
 npm run build
+```
 
-Run Watch & Build Files
+Run Watch Files
 
+```
 npm run watch
+```
 
-And go to or http://localhost:3000 in your browser
+And go to http://localhost:3000 in your browser
 
 ## What's Included
 
@@ -42,14 +54,14 @@ Within the download archive you'll find the following directories and files, log
 
 ##### AOS
 ##### JQuery
-##### Bootstrap v4.0.0-beta2
+##### Bootstrap 4.1.1
 ##### ImagesLoaded
 ##### LazySizes
-##### Custom Scrollbar
-##### Slick
+##### Slick Carousel
 ##### SmoothScroll for Websites
-##### Font Awesome
+##### Font Awesome 5.0.13
 ##### Google Fonts
+##### Free Vectors via <a rel="nofollow" href="https://www.vecteezy.com">www.vecteezy.com</a> 
 
 ## Browser Support
 
@@ -62,7 +74,3 @@ IE11, IE Edge, Chrome, Safari, Firefox
 GNU General Public License v3.0
 
 ## Sponsor
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/YeCwWfh5aF5PLhy7fZa1mkuP/dtux0986/om-starter-html-template'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/YeCwWfh5aF5PLhy7fZa1mkuP/dtux0986/om-starter-html-template.svg' />
-</a>
