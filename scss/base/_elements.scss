@@ -8,49 +8,64 @@
 
 .btn {
   border: none;
-  border-radius: 0.3125rem;
-  padding: 1.0625rem 1.875rem;
+  border-radius: 0.625rem;
+  padding: 1rem 2rem; /*16px 32px */
   font-family: $headings-font-family;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 300;
   text-transform: uppercase;
+
+  &.btn-primary {
+    background-color: $primary;
+    color: $white;
+  }
+
+  &.btn-secondary {
+    background-color: $secondary;
+    color: $white;
+  }
+
+  &.btn-white {
+    background-color: $white;
+    color: $primary;
+  }
+
+  &.btn-black {
+    background-color: $black;
+    color: $white;
+  }
+
+  &.btn-success {
+    background-color: $green;
+    color: $white;
+  }
+
+  &.btn-danger {
+    background-color: $red;
+    color: $white;
+  }
+
+  &.btn-warning {
+    background-color: $yellow;
+    color: $black;
+  }
+
+  &.btn-info {
+    background-color: $blue;
+    color: $white;
+  }
 }
 
-.btn-primary {
-  background-color: $primary;
-  color: $white;
-}
-
-.btn-secondary {
-  background-color: $secondary;
-  color: $primary;
-}
-
-.btn-success {
-
-}
-
-.btn-danger {
-
-}
-
-.btn-warning {
-
-}
-
-.btn-info {
-
-}
 
 /* Button Sizes */
 
 .btn-sm {
   padding: 0.6875rem 1.5625rem 0.5625rem 1.5625rem; /*11px 25px 9px 25px*/
-  font-size: 0.75rem; /*12px*/
+  font-size: 0.875rem; /*12px*/
 }
 
 .btn-md {
-  padding: 1rem 1.875rem 0.875rem 1.875rem; /*16px 30px 14px 40px*/
+  padding: 1rem 2rem; /*16px 32px */
   font-size: 0.875rem; /*14px*/
 }
 
@@ -96,8 +111,8 @@
   color: $white;
 }
 
-@media (min-width: 992px) {
-.learn-press-courses li.course:nth-child(4n+1) {
-  clear: left;
-}
+.hr {
+  width: 100%;
+  height: 0.0625rem; /* 1px */
+  background-color: $gray-200;
 }

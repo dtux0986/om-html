@@ -1,0 +1,30 @@
+/**
+ * Icon Boxes
+ * -------------------------------------------------- */
+
+.o-service-boxes {
+
+  &__wrapper {
+
+  }
+
+  &__block {
+    padding: 0 0.5rem;
+  }
+
+  svg {
+    margin-bottom: 1.25rem; /* 20px */
+    font-size: 1.5rem; /* 24px */
+    color: $primary;
+  }
+
+  &__title {
+    h6 {
+      color: $primary;
+    }
+  }
+
+  &__summary {
+
+  }
+}

@@ -32,10 +32,10 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    #007bff !default;
+$blue:    #091433 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
-$pink:    #ff2670 !default;
+$pink:    #ee2a7b !default;
 $red:     #dc3545 !default;
 $orange:  #ffae00 !default;
 $yellow:  #ffc107 !default;
@@ -61,7 +61,7 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       $pink !default;
-$secondary:     $orange !default;
+$secondary:     $blue !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -90,7 +90,7 @@ $theme-color-interval:      8% !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-size-base: 0.875rem !default; // Assumes the browser default, typically `16px`
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg: 1.25rem !default;
 $font-size-sm: .875rem !default;
 
@@ -98,9 +98,9 @@ $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
 $font-weight-base: $font-weight-normal !default;
-$line-height-base: 1.6 !default;
+$line-height-base: 1.7 !default;
 
-$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base: $font-family-sans-serif !default;
 

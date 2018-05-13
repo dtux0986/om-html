@@ -2,74 +2,71 @@
  * Misc
  * -------------------------------------------------- */
 
-/* Message */
-.o-message {
-  @media (max-width: 767px) {
-    text-align: center;
+/* Branding */
+.o-branding {
+  margin-right: 2.25rem; /* 36px */
+
+  h3 {
+    margin-bottom: 0;
   }
-  p {
-    margin: 0;
-    font-size: 0.75rem; /*12px*/
-    text-transform: capitalize;
+  a {
     color: $white;
   }
 }
 
-/* Branding */
-.o-branding {
-  img {
-    max-width: 3.125rem; /*50px*/
-  }
-}
-
-/* Search */
-.o-search {
-  position: relative;
+/* Socials */
+.o-socials {
+  margin-right: 2rem;
 
   @media (max-width: 767px) {
     display: none;
   }
 
-  i {
-    position: absolute;
-    right: 1.25rem; /*20px*/
-    top: 50%;
-    transform: translateY(-50%);
-    color: $primary;
-  }
-  input {
-    width: 100%;
-    border: none;
-    border-radius: 25px;
-    background-color: darken($white, 90);
-    color: $white;
+  ul {
+    li {
+      margin-right: 1rem;
+      margin-bottom: 0;
+      display: inline-block;
+      list-style-type: none;
 
-    &:focus,
-    &:active {
-      background-color: darken($white, 80);
-      color: $primary;
+      svg {
+        color: $white;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
     }
   }
 }
 
-/* Git Widget */
-.o-git {
-  margin-top: 50px;
 
-  &__wrapper {
+/* Search */
+.o-search {
+  margin-right: 2rem;
 
+  @media (max-width: 767px) {
+    display: none;
   }
 
-  ul {
-    li {
+  a {
+    color: $white;
+  }
 
-    }
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+/* Call to Action */
+.o-button {
+  @media (max-width: 767px) {
+    display: none;
   }
 }
 
 /* Copyright */
 .o-copyright {
-  font-size: 0.875rem;
   p {
     margin-bottom: 0;
   }

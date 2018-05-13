@@ -5,15 +5,17 @@
 .o-carousel {
 
   &__wrapper {
-    background: url('../../build/images/carousel-bg.jpg');
+    background: url('../../build/images/bg.svg');
+    background-position: center;
+    background-size: cover;
     color: $white;
   }
 
   &__inner {
-    height: 90vh;
+    height: 500px;
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
   }
 
   &__logo {
@@ -23,18 +25,15 @@
   }
 
   &__title {
-    margin-top: 2.75rem;
+    margin-bottom: 1.625rem; /* 26px */
+
     h1 {
       font-weight: 700;
+      color: $white;
     }
   }
 
-  &__sub {
-    margin-top: 2.25rem;
-    p {
-      font-size: 1rem;
-      font-weight: 300;
-      line-height: 1.75rem;
-    }
+  &__caption {
+    margin-bottom: 2.5625rem; /* 41px */
   }
 }

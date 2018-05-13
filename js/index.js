@@ -12,10 +12,6 @@ OM.smoothscroll = function () {
 	new SmoothScroll;
 };
 
-OM.carousel = function () {
-	Carousel.testimonials();
-};
-
 OM.parallax = function () {
 	SM.parallax();
 };
@@ -33,11 +29,6 @@ $(document).ready(function () {
 	 */
 
 	OM.parallax();
-
-	/**
-	 * Carousel
-	 */
-	OM.carousel();
 });
 
 export default OM;

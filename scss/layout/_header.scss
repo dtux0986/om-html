@@ -3,6 +3,31 @@
  * -------------------------------------------------- */
 
 header.site-header {
-  //background-color: lighten($black, 5);
-  background-color: red;
+  background-color: $primary;
+
+  .o-header-top {
+
+  }
+
+  .o-header-main {
+    padding: 1.125rem 0; /* 32px 0 */
+
+    &--left,
+    &--right {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &--left {
+      justify-content: flex-start;
+    }
+
+    &--right {}
+    justify-content: flex-end;
+  }
+
+  .o-header-bottom {
+
+  }
 }

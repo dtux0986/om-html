@@ -2,26 +2,11 @@
  * NAVIGATION
  * -------------------------------------------------- */
 
-/* Top Navigation */
-.o-top-navigation {
-  &__wrapper {
-
-  }
-
-  .o-top-menu {
-
-    .nav {
-      flex-direction: row-reverse;
-    }
-  }
-}
-
 /* Main Navigation */
 .o-main-navigation {
 
   .o-main-navigation__wrapper {
-    //background-color: $black;
-    background-color: blue;
+    background-color: $primary;
 
     @media (max-width: 767px) {
       padding: 30px 0;
@@ -35,15 +20,17 @@
   }
 
   nav.site-navigation--main {
-    min-height: 6.25rem; /*100px*/
+    padding: 0;
   }
 
   ul.navbar-nav {
     li.nav-item {
-      margin: 0 1.25rem 0 0;
+      margin: 0 0.9375rem 0 0; /* 0 15px 0 0 */
 
       a.nav-link {
-        font-weight: 700;
+        &.active {
+          text-decoration: underline;
+        }
       }
     }
     li.dropdown {
@@ -56,18 +43,3 @@
     }
   }
 }
-
-/* Footer Navigation */
-.o-footer-navigation {
-
-  &__wrapper {
-height: 100px;
-  }
-
-  .o-footer-menu {
-    .nav {
-      flex-direction: row-reverse;
-    }
-  }
-}
-
