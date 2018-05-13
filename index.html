@@ -58,6 +58,40 @@
 
 		<header id="masthead" class="site-header">
 
+			<div id="o-mobile-navigation" class="o-mobile-navigation">
+
+				<div id="o-mobile-branding" class="o-branding">
+					<h3 class="text-light"><a href="#">OM</a></h3>
+				</div><!--mobile-branding-->
+
+				<div id="o-mobile-socials" class="o-socials">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+					</ul>
+				</div><!--mobile-socials-->
+
+				<div class="o-mobile-menu">
+					<nav id="site-navigation--mobile" class="site-navigation--mobile nav flex-column">
+						<ul class="navbar-nav">
+							<li id="nav-item-mobile-01" class="nav-link">
+								<a class="nav-link active" href="#">Home</a>
+							</li>
+							<li id="nav-item-mobile-02" class="nav-link">
+								<a class="nav-link" href="#">About Us</a>
+							</li>
+							<li id="nav-item-mobile-03" class="nav-link">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+							<li id="nav-item-mobile-04" class="nav-link">
+								<a class="nav-link" href="#">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div><!--mobile-menu-->
+
 			<section class="o-header-top">
 				<!--leave-blank-->
 			</section>
@@ -66,11 +100,13 @@
 				<div class="container">
 					<div class="row">
 
-						<div class="col-12 col-md-8 align-self-center">
+						<div class="col-12 col-xl-7 align-self-center">
 							<div class="o-header-main--left">
+
 								<div class="o-branding">
 									<h3 class="text-light"><a href="#">OM</a></h3>
 								</div><!--branding-->
+
 								<nav id="o-main-navigation" class="o-main-navigation">
 									<div class="o-main-navigation__wrapper">
 										<div class="o-main-menu">
@@ -79,7 +115,7 @@
 													<li id="nav-item-main-01" class="nav-item">
 														<a class="nav-link active" href="#">Home</a>
 													</li>
-													<li id="nav-item-main-02" class="nav-item dropdown">
+													<li id="nav-item-main-02" class="nav-item">
 														<a class="nav-link" href="#">About Us</a>
 													</li>
 													<li id="nav-item-main-03" class="nav-item">
@@ -93,10 +129,16 @@
 										</div>
 									</div>
 								</nav><!--main-navigation-->
+
+								<div id="hamburger-icon" class="hamburger-icon">
+									<a href="#">
+										<i class="fas fa-bars"></i>
+									</a>
+								</div>
 							</div>
 						</div>
 
-						<div class="col-12 col-md-4 align-self-center text-right">
+						<div class="col-12 col-xl-5 align-self-center d-none d-lg-block">
 							<div class="o-header-main--right">
 								<div class="o-socials">
 									<ul>
@@ -111,7 +153,7 @@
 									</a>
 								</div><!--search-->
 								<div class="o-button">
-									<input type="button" class="btn btn-primary btn-white" value="BUY NOW" />
+									<input type="button" class="btn btn-primary btn-white" value="BUY NOW"/>
 								</div>
 							</div>
 						</div>
@@ -138,36 +180,44 @@
 							<section id="o-page-top" class="o-page-top">
 								<section id="o-carousel" class="o-carousel">
 									<div class="o-carousel__wrapper">
-										<div class="container">
-											<div class="row">
-												<div class="col-12">
-													<div class="o-carousel__inner">
-														<div class="o-carousel__title">
-															<h1>OM Starter HTML Template</h1>
-														</div>
-														<div class="o-carousel__caption">
-															<p>OM Starter HTML Template helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
-														</div>
-														<div class="o-git">
-															<div class="o-git__wrapper">
-																<ul class="list-inline">
-																	<li class="o-git__star list-inline-item">
-																		<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template" data-icon="octicon-star" aria-label="Star dtux0986/om-starter-html-template on GitHub">Star</a>
-																	</li>
-																	<li class="o-git__fork list-inline-item">
-																		<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template/fork" data-icon="octicon-repo-forked" aria-label="Fork dtux0986/om-starter-html-template on GitHub">Fork</a>
-																	</li>
-																	<li class="o-git__download list-inline-item">
-																		<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download dtux0986/om-starter-html-template on GitHub">Download</a>
-																	</li>
-																</ul>
+										<div id="o-parallax" class="o-parallax">
+											<div class="o-parallax__wrapper">
+												<div class="o-content-group">
+
+													<div class="container">
+														<div class="row">
+															<div class="col-12">
+																<div class="o-carousel__title">
+																	<h1>OM Starter HTML Template</h1>
+																</div>
+																<div class="o-carousel__caption">
+																	<p>OM Starter HTML Template helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
+																</div>
+																<div class="o-git">
+																	<div class="o-git__wrapper">
+																		<ul class="list-inline">
+																			<li class="o-git__star list-inline-item">
+																				<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template" data-icon="octicon-star" aria-label="Star dtux0986/om-starter-html-template on GitHub">Star</a>
+																			</li>
+																			<li class="o-git__fork list-inline-item">
+																				<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template/fork" data-icon="octicon-repo-forked" aria-label="Fork dtux0986/om-starter-html-template on GitHub">Fork</a>
+																			</li>
+																			<li class="o-git__download list-inline-item">
+																				<a class="github-button" href="https://github.com/dtux0986/om-starter-html-template/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download dtux0986/om-starter-html-template on GitHub">Download</a>
+																			</li>
+																		</ul>
+																	</div>
+																</div><!--git-->
 															</div>
-														</div><!--git-->
+														</div>
 													</div>
+
 												</div>
+												<div class="o-parallax__background" style="background-image: url(images/bg.svg)"></div>
 											</div>
 										</div>
 									</div>
+
 								</section><!--carousel-section-->
 							</section>
 
@@ -178,7 +228,7 @@
 											<div class="row">
 												<div class="col-12 col-sm-6 col-md-3">
 													<div class="o-service-boxes__block">
-															<i class="fas fa-user"></i>
+														<i class="fas fa-user"></i>
 														<div class="o-service-boxes__title">
 															<h6>Registration</h6>
 														</div>
@@ -189,7 +239,7 @@
 												</div>
 												<div class="col-12 col-sm-6 col-md-3">
 													<div class="o-service-boxes__block">
-															<i class="fas fa-object-group"></i>
+														<i class="fas fa-object-group"></i>
 														<div class="o-service-boxes__title">
 															<h6>Fully Responsive</h6>
 														</div>
@@ -200,7 +250,7 @@
 												</div>
 												<div class="col-12 col-sm-6 col-md-3">
 													<div class="o-service-boxes__block">
-															<i class="fas fa-cog"></i>
+														<i class="fas fa-cog"></i>
 														<div class="o-service-boxes__title">
 															<h6>Amazing Settings</h6>
 														</div>
@@ -211,7 +261,7 @@
 												</div>
 												<div class="col-12 col-sm-6 col-md-3">
 													<div class="o-service-boxes__block">
-															<i class="fas fa-cloud"></i>
+														<i class="fas fa-cloud"></i>
 														<div class="o-service-boxes__title">
 															<h6>Cloud Computing</h6>
 														</div>

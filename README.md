@@ -72,5 +72,3 @@ IE11, IE Edge, Chrome, Safari, Firefox
 ## Copyright and License
 
 GNU General Public License v3.0
-
-## Sponsor

@@ -28,6 +28,15 @@
       margin: 0 0.9375rem 0 0; /* 0 15px 0 0 */
 
       a.nav-link {
+        color: $white;
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: $white;
+          text-decoration: underline;
+        }
+
         &.active {
           text-decoration: underline;
         }
@@ -39,6 +48,44 @@
         a.dropdown-item {
 
         }
+      }
+    }
+  }
+
+  @media (max-width: 1140px) {
+    display: none;
+  }
+}
+
+/* Mobile Menu */
+
+.o-mobile-navigation {
+  width: 16rem; /* 256px */
+  padding: 1rem;
+  background-color: $black;
+  position: fixed;
+  left: -16rem;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  transition: transform 200ms ease;
+
+  &.active {
+    transform: translateX(16rem);
+  }
+
+  .o-mobile-menu {
+
+  }
+
+  ul.navbar-nav {
+    li.nav-link {
+      margin-bottom: 1rem;
+      padding: 0;
+
+      a {
+        margin-bottom: 0;
+        padding: 0;
       }
     }
   }

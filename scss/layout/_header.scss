@@ -23,8 +23,9 @@ header.site-header {
       justify-content: flex-start;
     }
 
-    &--right {}
-    justify-content: flex-end;
+    &--right {
+      justify-content: flex-end;
+    }
   }
 
   .o-header-bottom {

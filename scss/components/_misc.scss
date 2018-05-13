@@ -14,13 +14,23 @@
   }
 }
 
+/* Hamburger Ion */
+
+.hamburger-icon {
+  margin-left: auto;
+
+  svg {
+    color: $white;
+  }
+
+  @media (min-width: 1140px) {
+    display: none;
+  }
+}
+
 /* Socials */
 .o-socials {
   margin-right: 2rem;
-
-  @media (max-width: 767px) {
-    display: none;
-  }
 
   ul {
     li {
@@ -45,24 +55,14 @@
 .o-search {
   margin-right: 2rem;
 
-  @media (max-width: 767px) {
-    display: none;
-  }
-
   a {
     color: $white;
-  }
-
-  @media (max-width: 767px) {
-    display: none;
   }
 }
 
 /* Call to Action */
 .o-button {
-  @media (max-width: 767px) {
-    display: none;
-  }
+
 }
 
 /* Copyright */

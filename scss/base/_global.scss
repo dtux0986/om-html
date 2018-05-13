@@ -14,11 +14,12 @@ body {
 
 a {
   color: $primary;
+  transition: color 200ms ease;
 
   &:hover,
   &:focus,
   &:active {
-    color: $primary;
+    text-decoration: underline;
   }
 }
 
@@ -90,14 +91,14 @@ input {
     line-height: 1;
     color: $white;
     border-radius: 0.625rem;
-    border: 1px solid $primary;
+    border: none;
   }
 
   /* Reset Button Customized */
   &[type="reset"] {
     background-color: $orange;
     color: $primary;
-    border: 1px solid $orange;
+    border: none;
   }
 }
 

@@ -5,17 +5,12 @@
 .o-carousel {
 
   &__wrapper {
-    background: url('../../build/images/bg.svg');
-    background-position: center;
-    background-size: cover;
     color: $white;
+    text-align: left;
   }
 
   &__inner {
-    height: 500px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
+
   }
 
   &__logo {
