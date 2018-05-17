@@ -31,4 +31,13 @@ header.site-header {
   .o-header-bottom {
 
   }
+
+  /* Sticky Navigation */
+
+  &.sticky {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    transition: top 300ms ease-in-out;
+  }
 }

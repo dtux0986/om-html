@@ -63,12 +63,12 @@
   width: 16rem; /* 256px */
   padding: 1rem;
   background-color: $black;
-  position: fixed;
+  position: absolute;
   left: -16rem;
   top: 0;
   bottom: 0;
-  z-index: 999;
-  transition: transform 200ms ease;
+  z-index: 9999;
+  transition: transform 250ms ease-in-out;
 
   &.active {
     transform: translateX(16rem);
@@ -87,6 +87,14 @@
         margin-bottom: 0;
         padding: 0;
       }
+    }
+  }
+}
+
+body.mobile-navigation {
+  .site {
+    &:before {
+      opacity: 1;
     }
   }
 }
